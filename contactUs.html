@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/logo.svg" />
+    <link rel="stylesheet" href="css/contactUs.css" />
+    <title>Get in touch</title>
+  </head>
+  <body>
+    <section>
+      <div class="backtosite">
+        <a class="bck" terget="_blank" href="index.html">Back To Home</a>
+        <a terget="_blank" href="index.html"
+          ><img class="back" src="assets/back.svg" alt="Back"
+        /></a>
+      </div>
+      <div class="container">
+        <div class="form">
+          <div class="formart">
+            <img src="assets/illustrations/contactUs.svg" alt="Get In Touch" />
+          </div>
+          <div class="contactform">
+            <form name="contact" method="POST" data-netlify="true">
+              <h2 class="title formtitle">Contact Us</h2>
+              <input type="text" name="name" placeholder="Name" required />
+              <input type="email" name="email" placeholder="E-mail" required />
+              <textarea
+                name="description"
+                placeholder="Message"
+                id=""
+                cols="20"
+                rows="6"
+                required
+              ></textarea>
+              <input id="submit" type="submit" value="SEND MESSAGE" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

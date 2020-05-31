@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/logo.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Covid19-Qatar</title>
+  </head>
+  <body>
+    <header id="header">
+      <img onclick="totop()" id="menu" src="assets/menu.svg" alt="menu" />
+      <img class="hidden" src="assets/close.svg" alt="close" id="close" />
+      <div class="clock-box">
+        <div class="clock">HH : MM : SS</div>
+        <div class="date">DD - MM - YYYY</div>
+      </div>
+      <input type="checkbox" id="switch" /><label for="switch">
+        <img id="sun" src="assets/sun.svg" alt="sun" />
+        <img id="moon" src="assets/moon.svg" alt="moon" />
+      </label>
+    </header>
+    <div class="grid-container">
+      <aside class="hidden">
+        <figure>
+          <figcaption>أخر أخبار الفيروس في دولة قطر</figcaption>
+        </figure>
+        <nav>
+          <ul>
+            <!--            <li><a id="list" href="index.html" target="_blank">الاحصائات -</a></li> -->
+            <li>
+              <a id="list" href="news.html" target="_blank">اخر الأخبار -</a>
+            </li>
+            <li>
+              <a id="list" href="virus.html" target="_blank"
+                >طرق الوقاية من الفيروس -</a
+              >
+            </li>
+            <li>
+              <a id="list" href="contact.html" target="_blank"
+                >التواصل مع الجهات الرسمية -</a
+              >
+            </li>
+            <li>
+              <a id="list" href="Initiatives.html" target="_blank"
+                >المبادرات -</a
+              >
+            </li>
+            <li>
+              <a id="list" href="contactUs.html" target="_blank"
+                >تواصل معنا -</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main id="m1">
+        <h2>إجمالي المتعافين</h2>
+        <h1 id="recovered">Updating..</h1>
+        <!--         <hr />
+       <h5 class="a24">أخر 24 ساعة</h5>
+        <h4 id="recovered24" class="d24">null</h4>-->
+      </main>
+
+      <main id="m2">
+        <h2>إجمالي الوفيات</h2>
+        <h1 id="dead">Updating..</h1>
+        <hr />
+        <h5 class="a24">أخر 24 ساعة</h5>
+        <h4 id="dead24" class="d24">Updating..</h4>
+      </main>
+
+      <main id="m3">
+        <h2>الحالات النشطة</h2>
+        <h1 id="active">Updating..</h1>
+        <hr />
+        <h5 class="a24">أخر 24 ساعة</h5>
+        <h4 id="active24" class="d24">Updating..</h4>
+      </main>
+
+      <main id="m4">
+        <h2>إجمالي الحالات</h2>
+        <h1 id="total">Updating..</h1>
+        <!--        <hr />
+        <h5 class="a24">أخر 24 ساعة</h5>
+        <h4 id="critical224" class="d24">null</h4> -->
+      </main>
+
+      <main id="m5">
+        <h2>عدد المفحوصين</h2>
+        <h1 id="tested">Updating..</h1>
+        <!--        <hr />
+        <h5 class="a24">أخر 24 ساعة</h5>
+        <h4 id="tested24" class="d24">null</h4>-->
+      </main>
+
+      <main id="m6">
+        <h2>الحالات التي في العناية المركزة</h2>
+        <h1 id="critical1">Updating..</h1>
+        <!--        <hr />
+        <h5 class="a24">أخر 24 ساعة</h5>
+        <h4 id="critical124" class="d24">null</h4>-->
+      </main>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <div class="face face1">
+          <div class="content">
+            <img src="assets/illustrations/contact.svg" />
+            <h3>التواصل مع الجهات الرسمية</h3>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <p>
+              أرقام وخطوط التواصل مع الجهات الرسمية سواء وزارات أو مؤسسات خيرية
+            </p>
+            <a href="contact.html" target="_blank">معرفة المزيد</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="face face1">
+          <div class="content">
+            <img src="assets/illustrations/prevent.svg" />
+            <h3>طرق الوقاية من الفيروس</h3>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <p>
+              طرق ووسائل الوقاية من الفيروس والحفاظ علي صحة الانسان وتقوية
+              المناعة
+            </p>
+            <a href="virus.html" target="_blank">معرفة المزيد</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="face face1">
+          <div class="content">
+            <img src="assets/illustrations/newspaper.svg" />
+            <h3>أخر الأخبار</h3>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <p>
+              أخر أخبار الفيروس و القوانين الجديدة في جميع المجالات التعليمية و
+              التجارية وغيرها
+            </p>
+            <a href="news.html" target="_blank">معرفة المزيد</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main id="m7">
+      <a
+        style="padding-left: 1%; padding-top: 0.3%;"
+        href="https://www.instagram.com/_o.eg"
+        target="_blank"
+        ><img
+          id="instagram"
+          src="assets/instagram.svg"
+          alt="@_o.eg"
+          width="20px"
+          height="80%"
+          style="padding-left: 1%; padding-top: 0.2%;"
+      /></a>
+      <a
+        style="padding-top: 0.1%;"
+        id="my-name"
+        href="https://www.instagram.com/_o.eg"
+        target="_blank"
+        >By Omar Amr</a
+      >
+      <a
+        style="padding-top: 0.1%;"
+        id="contact"
+        href="contactUs.html"
+        target="_blank"
+        >Contact Us</a
+      >
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
